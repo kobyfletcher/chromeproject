@@ -45,7 +45,7 @@ function handleRun(delta, speedScale) {
 
   if (currentFrameTime >= FRAME_TIME) {
     dinoFrame = (dinoFrame + 1) % DINO_FRAME_COUNT
-    dinoElem.src = `imgs/dino-run-${dinoFrame}.png`
+    dinoElem.src = `imgs/10.jfif`
     currentFrameTime -= FRAME_TIME
   }
   currentFrameTime += delta * speedScale
